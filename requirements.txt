@@ -1,3 +1,4 @@
 numpy>=1.26
 websockets>=13
+onnxruntime>=1.17   # Silero VAD (neural speech check); without it the system runs the v1 settings
 pytest>=8        # only for running the kit's own tests
