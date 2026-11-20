@@ -30,7 +30,7 @@ from turntaking import asr
 from turntaking.acoustic import FRAME_MS, Frontend
 from turntaking.words import classify
 
-TEAM = "turnsense"           # your team name, shown on the scoreboard
+TEAM = "LSR"                 # your team name, shown on the scoreboard
 
 # --- Core track parameters (all in ms or dB; chosen from feature analysis, see tools/analyze_events.py) ------------
 REL_MIN_DB = -6.0           # speech quieter than (enrolled voice - 6 dB) is not the caller claiming the floor
